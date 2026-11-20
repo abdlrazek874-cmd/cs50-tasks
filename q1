@@ -1,8 +1,12 @@
- start
- read grade
-if grade>=50 Then
-print"(pass)"
-else
-print"(fail)"
-end if
-end
+#include <iostream>
+using namespace std:
+int main() {
+  int grade;
+cout <<"Enter student grade (Out of 100): "; cin>> grade;
+if (grade >=50 && grade <=100) {
+cout<<"pass"<<endl;
+} else if (grade>=0 && grade<50) {
+cout<<"fail"<<endl;
+} else {
+cout <<"InvaLid grade!"<<endl;
+return 0;
