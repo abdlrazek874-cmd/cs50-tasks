@@ -1,0 +1,8 @@
+ start
+ read grade
+if grade>=50 Then
+print"(pass)"
+else
+print"(fail)"
+end if
+end
