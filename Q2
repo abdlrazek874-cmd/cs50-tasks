@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+   int registered-list[] = {51, 52, 53, 54, 55}
+  int size = 5;
+  int seat-number;
+  bool is-found= false;
+  cout <<"Enter seat number:";
+  cin >> seat-number;
+  for (int i=0; i< size; i++) {
+    if (registered-list[i] == seat-number) {
+      is-found = true;
+      break;
+                         {
+                           {
+if (is-found) {
+  cout << "Allowed to enter"<< endl;
+  }else{
+  cout << "Not allowed to enter" <<endl;
+                                   {
+return 0;
+                                     {
